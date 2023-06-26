@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发现音乐</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<style>
+  .title {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+    letter-spacing: 15px;
+  }
+
+  .nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .active1 {
+    color: #00a0a0;
+  }
+
+  .nav1 a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 70px;
+  }
+
+  .nav1 a:hover {
+    color: #00a0a0;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main div {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .main img {
+    width: 224px;
+    height: 224px;
+  }
+
+  .main p {
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    line-height: 22px;
+  }
+
+  .main span {
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    color: #999;
+  }
+
+  .jctj {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .jctj img {
+    width: 590px;
+    height: 240px;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="../image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a class="active" href="../index.html">发现音乐</a></li>
+        <li> <a href="../my.html">我的音乐</a></li>
+        <li> <a href="../concern.html">关注</a></li>
+        <li> <a href="../people.html">歌手</a></li>
+        <li> <a href="../vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="../image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="../logon.html" class="logon">登录</a>
+      <a href="../start.html" class="start">开通VIP</a>
+      <a href="../pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!-- 歌单推荐 -->
+  <p class="title">歌单推荐</p>
+  <ul class="nav1">
+    <li> <a href=" ../index.html">为你推荐</a></li>
+    <li> <a class=" active1" href="../find/om.html">欧美榜单</a></li>
+    <li> <a href="../find/gy.html">国语</a></li>
+    <li> <a href="../find/yy.html">粤语精选</a></li>
+    <li> <a href="../find/oo.html">00年代</a></li>
+    <li> <a href="../find/cyy.html">纯音乐</a></li>
+  </ul>
+  <div class="main">
+    <div>
+      <img src="../image/为你推荐/11.webp">
+      <p>海外爆火神曲·Internet Hits</p>
+      <span>播放量：5730万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/12.webp">
+      <p>欧美私藏·Discover</p>
+      <span>播放量：1061万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/13.webp">
+      <p>海外独立新声·New Indie</p>
+      <span>播放量：164万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/14.webp">
+      <p>英文电子：渴望在自己的世界疯狂</p>
+      <span>播放量：433.5万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/15.webp">
+      <p>就现在！为每个平凡日子翩翩起舞</p>
+      <span>播放量：11万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/16.webp">
+      <p>治愈女声英文，即享温柔时刻</p>
+      <span>播放量：420万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/17.webp">
+      <p>节奏蓝调·R&B Collections</p>
+      <span>播放量：230万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/18.webp">
+      <p>StephaniePoetri❀浅醉朦胧女嗓</p>
+      <span>播放量：12万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/19.webp">
+      <p>柔性R&B女嗓✰在音海里舒适缥游</p>
+      <span>播放量：11万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/20.webp">
+      <p>直接红心·耳朵无法抗拒的英文歌</p>
+      <span>播放量：151万</span>
+    </div>
+  </div>
+
+  <!-- 精彩推荐 -->
+  <p class=" title">精彩推荐</p>
+  <div class="jctj">
+    <img src="../image/jctj1.webp">
+    <img src="../image/jctj2.webp">
+  </div>
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+    作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>

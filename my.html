@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的音乐</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .title {
+    display: flex;
+    margin: 45px 40px 30px 40px;
+  }
+
+  .title div {
+    width: 122px;
+    border: 1px solid black;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 1px;
+    border: 1px solid #c9c9c9;
+    font-size: 12px;
+  }
+
+  .active-t {
+    border: 1px solid #31c27c;
+    background-color: #31c27c;
+    color: #fff;
+  }
+
+  .main {
+    padding: 0 40px;
+  }
+
+  .center_head {
+    width: 100%;
+  }
+
+  .center_head th {
+    height: 39px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 100;
+    background-color: white;
+  }
+
+  .center_body {
+    width: 100%;
+  }
+
+  .center_body td {
+    color: black;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+
+  .center_body img {
+    background: #fff;
+    height: 40px;
+    border-radius: 50%;
+    max-width: 54px;
+    width: 54px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .one {
+    text-align: center;
+  }
+
+
+  .center_body tr:nth-child(2n-1) {
+    background: rgb(247, 247, 247);
+
+  }
+
+  .center_body tr:nth-child(2n) {
+    background: white;
+
+  }
+
+  .video {
+    display: block;
+    margin: auto;
+    width: 620px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+
+  .video img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+  }
+
+  .video div {
+    margin: 0 50px 0 15px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .video span {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 100;
+  }
+
+  .video video {
+    height: 70px;
+    width: 400px;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a class="active" href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!--  -->
+  <div class="title">
+    <div class="active-t">播放全部
+    </div>
+    <div>添加到</div>
+    <div>下载</div>
+    <div>批量操作</div>
+  </div>
+  <div class="main">
+    <table cellpadding="0" cellspacing="0" class="center_head">
+      <tr>
+        <th width="5%"></th>
+        <th width="50%">歌曲</th>
+        <th width="20%">歌手</th>
+        <th width="20%">专辑</th>
+        <th width="5%">时长</th>
+      </tr>
+    </table>
+    <table cellpadding="0" cellspacing="0" class="center_body">
+      <tr>
+        <td class="one" width="5%">1</td>
+        <td width="50%">Starboy</td>
+        <td width="20%">The Weeknd</td>
+        <td width="20%">BRIT Awards 2017</td>
+        <td width="5%">03:50</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">2</td>
+        <td width="50%">catch me</td>
+        <td width="20%">JVKE</td>
+        <td width="20%">this is what ____ feels like (Vol. 1-4)</td>
+        <td width="5%">02:57</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">3</td>
+        <td width="50%">Heartbeat</td>
+        <td width="20%">Childish Gambino</td>
+        <td width="20%">Heartbeat</td>
+        <td width="5%">03:17</td>
+      </tr>
+
+      <tr>
+        <td class="one" width="5%">4</td>
+        <td width="50%">3:15 (Breathe)</td>
+        <td width="20%">Russ</td>
+        <td width="20%">3:15 (Breathe)</td>
+        <td width="5%">03:04</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">5</td>
+        <td width="50%">Die For You</td>
+        <td width="20%">The Weeknd</td>
+        <td width="20%">songs that would save me from vecna</td>
+        <td width="5%">04:20</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">6</td>
+        <td width="50%">Goodbyes</td>
+        <td width="20%">Post Malone</td>
+        <td width="20%">Goodbyes</td>
+        <td width="5%">02:54</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">7</td>
+        <td width="50%">F*ck Love</td>
+        <td width="20%">Lund</td>
+        <td width="20%">F*ck Love</td>
+        <td width="5%">03:17</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">8</td>
+        <td width="50%">History</td>
+        <td width="20%">88rising/Rich Brian</td>
+        <td width="20%">History</td>
+        <td width="5%">03:27</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">9</td>
+        <td width="50%">Edamame (ft. Rich Brian)</td>
+        <td width="20%">bbno$/Rich Brian</td>
+        <td width="20%">Edamame (ft. Rich Brian)</td>
+        <td width="5%">02:13</td>
+      </tr>
+      <tr>
+        <td class="one" width="5%">10</td>
+        <td width="50%">Midsummer Madness</td>
+        <td width="20%">88rising/Rich Brian </td>
+        <td width="20%">Midsummer Madness</td>
+        <td width="5%">04:40</td>
+      </tr>
+    </table>
+  </div>
+  <div class="video">
+    <img src="./image/History.webp">
+    <div>
+      <p>History</p>
+      <span>Rich Brian</span>
+    </div>
+    <video controls preload>
+      <source src="./music/Rich Brian_History.mp3 ">
+    </video>
+  </div>
+
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+      作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>

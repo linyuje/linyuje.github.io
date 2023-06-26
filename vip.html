@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .main {
+    background-image: url('./image/vip.webp');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+  .main h1 {
+    font-size: 70px;
+    font-weight: 100px;
+    margin-top: 100px;
+  }
+
+  .main p {
+    font-size: 25px;
+    font-weight: 100;
+    margin: 22px 0;
+  }
+
+  .main div {
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 250px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(46, 182, 116);
+  }
+
+  .main div:hover {
+    background-color: rgb(57, 165, 113);
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a class="active" href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!--  -->
+  <div class="main">
+    <h1>绿钻豪华版</h1>
+    <p>音乐，更优悦</p>
+    <div>立即开通</div>
+  </div>
+  <!-- 页脚 -->
+  <!-- <footer>
+自制音乐 <br>
+      作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer> -->
+</body>
+
+</html>

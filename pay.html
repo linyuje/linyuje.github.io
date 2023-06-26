@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>充值</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .main {
+    width: 600px;
+    margin: 70px auto;
+    border: 1px solid rgb(241, 241, 241);
+  }
+
+  .header {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
+  }
+
+  .item {
+    padding: 30px;
+    border: 1px solid rgb(229, 229, 229);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .iitem {
+    border: 1px solid rgb(229, 229, 229);
+    width: 31%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .active-b {
+    border: 1px solid rgb(51, 135, 239);
+
+  }
+
+  .iitem div {
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+  }
+
+  .iitem img {
+    width: 20px;
+  }
+
+  .iitem p {
+    display: block;
+    width: 80%;
+    text-align: center;
+    border-top: 1px dotted rgb(227, 227, 227);
+    line-height: 30px;
+    font-size: 13px;
+
+  }
+
+  .qr {
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    color: #31c27c;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!-- 主内容 -->
+  <div class="main">
+    <div class="header">
+      购买乐币
+    </div>
+    <div class="item">
+      <div class="iitem active-b">
+        <div>
+          <img src="./image/充值.webp">
+          <span>60</span>
+        </div>
+        <p>6元</p>
+      </div>
+      <div class="iitem">
+        <div>
+          <img src="./image/充值.webp">
+          <span>120</span>
+        </div>
+        <p>12元</p>
+      </div>
+      <div class="iitem">
+        <div>
+          <img src="./image/充值.webp">
+          <span>300</span>
+        </div>
+        <p>30元</p>
+      </div>
+      <div class="iitem">
+        <div>
+          <img src="./image/充值.webp">
+          <span>680</span>
+        </div>
+        <p>68元</p>
+      </div>
+      <div class="iitem">
+        <div>
+          <img src="./image/充值.webp">
+          <span>1280</span>
+        </div>
+        <p>128元</p>
+      </div>
+      <div class="iitem">
+        <div>
+          <img src="./image/充值.webp">
+          <span>3280</span>
+        </div>
+        <p>328元</p>
+      </div>
+      <p class="qr">确认购买</p>
+    </div>
+  </div>
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+      作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>

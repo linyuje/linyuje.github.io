@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .main {
+    background-image: url('./image/login.webp');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .login_item {
+    width: 350px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 8px white;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .login_item p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .main input {
+    width: 100%;
+    height: 55px;
+    border: 0;
+    background: none;
+    outline: none;
+    padding: 10px;
+  }
+
+  .main button {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    margin: 15px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 4px white;
+    cursor: pointer;
+    color: white;
+    background-color: #31c27c;
+    text-align: center;
+  }
+
+  .aCenter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .login_item a {
+
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+  }
+
+  #wj {
+    color: rgb(227, 131, 131);
+  }
+
+  #lj {
+    color: rgb(84, 160, 255);
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!-- 主内容 -->
+  <div class="main">
+    <div class="login_item">
+      <!-- 表单 -->
+      <input placeholder="请输入用户名" type="text" name="firstname"><br>
+      <hr>
+      <input placeholder="请输入密码" type="text" name="lastname"><br>
+      <hr>
+      <button>登录</button>
+      <div class="aCenter">
+
+        <a id="wj" href="">忘记密码?</a>
+        <a id="lj" href="">立即注册</a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

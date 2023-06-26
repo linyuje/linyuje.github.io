@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发现音乐</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .title {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+    letter-spacing: 13px;
+  }
+
+  .nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .active1 {
+    color: #00a0a0;
+  }
+
+  .nav1 a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 70px;
+  }
+
+  .nav1 a:hover {
+    color: #00a0a0;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main div {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .main img {
+    width: 224px;
+    height: 224px;
+  }
+
+  .main p {
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    line-height: 22px;
+  }
+
+  .main span {
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    color: #999;
+  }
+
+  .jctj {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .jctj img {
+    width: 590px;
+    height: 240px;
+  }
+
+  .video {
+    display: block;
+    width: 900px;
+    margin: auto;
+  }
+
+  .gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gif p {
+    margin-left: 15px;
+  }
+
+  .gif img {
+    width: 40px;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a class="active" href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!-- 歌单推荐 -->
+  <p class="title">歌单推荐</p>
+  <ul class="nav1">
+    <li> <a class=" active1" href=" ./index.html">为你推荐</a></li>
+    <li> <a href="./find/om.html">欧美榜单</a></li>
+    <li> <a href="./find/gy.html">国语</a></li>
+    <li> <a href="./find/yy.html">粤语精选</a></li>
+    <li> <a href="./find/oo.html">00年代</a></li>
+    <li> <a href="./find/cyy.html">纯音乐</a></li>
+  </ul>
+  <div class="main">
+    <div>
+      <img src="./image/为你推荐/1.jpg">
+      <p>Live：林俊杰的那些神级现场</p>
+      <span>播放量：1353万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/2.jpg">
+      <p>Ed sheeran | 冬日旋律</p>
+      <span>播放量：441万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/3.jpg">
+      <p>蒸汽波 | 落日飞车</p>
+      <span>播放量：13.6万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/4.jpg">
+      <p>吉他指弹：大师经典作品集</p>
+      <span>播放量：13.5万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/5.jpg">
+      <p>睡眠治愈曲 | 慵懒撩人，聆听入境</p>
+      <span>播放量：11万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/6.jpg">
+      <p>EMO说唱 | 我没逼你 是你自讨没趣</p>
+      <span>播放量：10万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/7.jpg">
+      <p>欧美说唱丨英文腔调与丝滑flow的碰撞</p>
+      <span>播放量：30万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/8.jpg">
+      <p>甜系说唱 | 想要跟你爱到一百岁</p>
+      <span>播放量：183万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/9.jpg">
+      <p>rapper唱情歌 | 隐藏在歌词里的碎碎念</p>
+      <span>播放量：19万</span>
+    </div>
+    <div>
+      <img src="./image/为你推荐/10.jpg">
+      <p>伤感说唱 | 哼首为自己怜悯的歌</p>
+      <span>播放量：101万</span>
+    </div>
+  </div>
+  <!-- 视频 -->
+  <div class="gif">
+    <img src="./image/雪人.gif">
+    <p class=" title">视频欣赏</p>
+    <img src="./image/雪人.gif">
+
+  </div>
+  <video class="video" controls preload src="./video/《History》.mp4"">
+        </video>
+  <!-- 精彩推荐 -->
+  <p class=" title">精彩推荐</p>
+    <div class="jctj">
+      <img src="./image/jctj1.webp">
+      <img src="./image/jctj2.webp">
+    </div>
+    <!-- 页脚 -->
+    <footer>
+      自制音乐 <br>
+      作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+    </footer>
+</body>
+
+</html>

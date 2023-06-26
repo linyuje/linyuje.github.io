@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发现音乐</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<style>
+  .title {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+    letter-spacing: 15px;
+  }
+
+  .nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .active1 {
+    color: #00a0a0;
+  }
+
+  .nav1 a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 70px;
+  }
+
+  .nav1 a:hover {
+    color: #00a0a0;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main div {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .main img {
+    width: 224px;
+    height: 224px;
+  }
+
+  .main p {
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    line-height: 22px;
+  }
+
+  .main span {
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    color: #999;
+  }
+
+  .jctj {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .jctj img {
+    width: 590px;
+    height: 240px;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="../image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a class="active" href="../index.html">发现音乐</a></li>
+        <li> <a href="../my.html">我的音乐</a></li>
+        <li> <a href="../concern.html">关注</a></li>
+        <li> <a href="../people.html">歌手</a></li>
+        <li> <a href="../vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="../image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="../logon.html" class="logon">登录</a>
+      <a href="../start.html" class="start">开通VIP</a>
+      <a href="../pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!-- 歌单推荐 -->
+  <p class="title">歌单推荐</p>
+  <ul class="nav1">
+    <li> <a href=" ../index.html">为你推荐</a></li>
+    <li> <a href="../find/om.html">欧美榜单</a></li>
+    <li> <a href="../find/gy.html">国语</a></li>
+    <li> <a class=" active1" href="../find/yy.html">粤语精选</a></li>
+    <li> <a href="../find/oo.html">00年代</a></li>
+    <li> <a href="../find/cyy.html">纯音乐</a></li>
+  </ul>
+  <div class="main">
+    <div>
+      <img src="../image/为你推荐/31.webp">
+      <p>港式点播机：耳酣神醉的悠悠粤音</p>
+      <span>播放量：133万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/32.webp">
+      <p>粤念挚情：细数旧忆的港岛一角</p>
+      <span>播放量：141万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/33.webp">
+      <p>粤语情歌篇，一半甜蜜一半伤</p>
+      <span>播放量：134.6万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/34.webp">
+      <p>雨落下T港粤唱作人的愁苦稀释法</p>
+      <span>播放量：139.5万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/35.webp">
+      <p>经典永存：致敬老戏骨吴耀汉</p>
+      <span>播放量：111万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/36.webp">
+      <p>港式温柔小店：摄取老情歌的浪漫</p>
+      <span>播放量：120万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/37.webp">
+      <p>狗狗我啊，就想过场愉「粤」人生</p>
+      <span>播放量：310万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/38.webp">
+      <p>百万收藏莫文蔚·独有的氛围感</p>
+      <span>播放量：1823万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/39.webp">
+      <p>雨天不止雨声还有「粤语」歌</p>
+      <span>播放量：193万</span>
+    </div>
+    <div>
+      <img src="../image/为你推荐/40.webp">
+      <p>粤语感怀：用音符携刻时光中雨季</p>
+      <span>播放量：1201万</span>
+    </div>
+  </div>
+  <!-- 精彩推荐 -->
+  <p class="title">精彩推荐</p>
+  <div class="jctj">
+    <img src="../image/jctj1.webp">
+    <img src="../image/jctj2.webp">
+  </div>
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+    作者：林韵杰   电子邮件:3254147104@qq.com     地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>

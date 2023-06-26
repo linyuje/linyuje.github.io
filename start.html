@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>开通VIP</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .main {
+    width: 600px;
+    margin: 70px auto;
+    box-shadow: 0 0 6px 1px rgb(173, 168, 168);
+    padding: 0 10px;
+    border: 1px solid rgb(241, 241, 241);
+  }
+
+  .header {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 30px;
+    border-bottom: 2px solid rgb(241, 241, 241);
+  }
+
+  .item {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .iitem {
+    border: 1px solid rgb(229, 229, 229);
+    width: 48%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .active-b {
+    border: 1px solid rgb(50, 166, 134);
+    background-color: rgb(247, 252, 251);
+  }
+
+  .tit {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .jg {
+    display: flex;
+    align-items: center;
+  }
+
+  .jg span {
+    font-size: 14px;
+
+  }
+
+  .jg p {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .tj {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    background-color: rgb(50, 166, 134);
+  }
+
+
+  .qr {
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    color: #31c27c;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!-- 主内容 -->
+  <div class="main">
+    <div class="header">
+      开通会员
+    </div>
+    <div class="item">
+      <div class="iitem active-b">
+        <p class="tit">连续包月</p>
+        <div class="jg">
+          <span>￥</span>
+          <p>15</p>
+        </div>
+        <div class="tj">推荐</div>
+      </div>
+      <div class="iitem ">
+        <p class="tit">12个月</p>
+        <div class="jg">
+          <span>￥</span>
+          <p>168</p>
+        </div>
+        <div class="tj"></div>
+      </div>
+      <div class="iitem ">
+        <p class="tit">3个月</p>
+        <div class="jg">
+          <span>￥</span>
+          <p>45</p>
+        </div>
+        <div class="tj"></div>
+      </div>
+
+      <p class="qr">确认购买</p>
+    </div>
+  </div>
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+    作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>

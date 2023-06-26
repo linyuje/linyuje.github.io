@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  /* width: 1360px; */
+  margin: auto;
+  background-color: #fafafa;
+}
+
+header {
+  padding: 0 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+}
+
+header a {
+  color: #00a0a0;
+}
+
+nav {
+  display: flex;
+  font-size: 17px;
+}
+
+nav ul {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+nav ul a {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 70px;
+}
+
+nav ul a:hover {
+  background-color: #7fd0d0;
+  color: white;
+}
+
+.active {
+  background-color: #00a0a0;
+  color: white;
+}
+
+/* logo */
+.logo {
+  display: block;
+  width: 160px;
+  height: 46px;
+
+}
+
+/* 搜索 */
+.search {
+  width: 170px;
+  height: 30px;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  height: 18px;
+  margin-right: 10px;
+}
+
+.search input {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+/* 功能键 */
+.buttons {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+/* 开通vip */
+.start {
+  display: block;
+  width: 100px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 20px;
+  border: 1px solid #2caf6f;
+  background-color: #00a0a0;
+  color: white;
+  border-radius: 3px;
+}
+
+.start:hover {
+  background-color: #31c27c;
+}
+
+/* 充值 */
+.pay {
+  display: block;
+  width: 85px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 3px;
+}
+
+/* 页脚 */
+footer {
+  margin-top: 40px;
+  background: #00a0a0;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+}

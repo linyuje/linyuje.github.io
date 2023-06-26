@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关注</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .title {
+    display: flex;
+    margin: 45px 40px 30px 40px;
+  }
+
+  .title p {
+    margin-right: 20px;
+  }
+
+  .t-active {
+    color: rgb(87, 184, 87);
+  }
+
+  .main {
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    margin: 0 20px 20px 0;
+    background-color: rgb(235, 235, 241);
+    width: 17%;
+    height: 300px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .item img {
+    border-radius: 50%;
+    height: 150px;
+  }
+
+  .item span {
+    color: #999;
+    line-height: 22px;
+    font-size: 12px;
+  }
+
+  .item div {
+    width: 70%;
+    border: 1px solid black;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a class="active" href="./concern.html">关注</a></li>
+        <li> <a href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!--  -->
+  <div class="title">
+    <p class="t-active">歌手</p>
+    <p>用户</p>
+  </div>
+  <div class="main">
+    <div class="item">
+      <img src="./image/关注/2.webp">
+      <p>林俊杰</p>
+      <span>2000万人关注</span>
+      <div>✓已关注</div>
+    </div>
+    <div class="item">
+      <img src="./image/关注/3.webp">
+      <p>G.E.M.邓紫棋</p>
+      <span>800万人关注</span>
+      <div>✓已关注</div>
+    </div>
+    <div class="item">
+      <img src="./image/关注/4.webp">
+      <p>薛之谦</p>
+      <span>1220万人关注</span>
+      <div>✓已关注</div>
+    </div>
+    <div class="item">
+      <img src="./image/关注/5.webp">
+      <p>陈奕迅</p>
+      <span>600万人关注</span>
+      <div>✓已关注</div>
+    </div>
+    <div class="item">
+      <img src="./image/关注/6.webp">
+      <p>告五人</p>
+      <span>200万人关注</span>
+      <div>✓已关注</div>
+    </div>
+    <!-- <div class="item">
+      <img src="./image/关注/7.webp" >
+      <p>王靖雯</p>
+      <span>240万人关注</span>
+      <div>✓已关注</div>
+    </div> -->
+    <div class="item">
+      <img src="./image/关注/8.webp">
+      <p>李荣浩</p>
+      <span>760万人关注</span>
+      <div>✓已关注</div>
+    </div>
+    <!-- <div class="item">
+      <img src="./image/关注/9.webp" >
+      <p>蔡健雅</p>
+      <span>540万人关注</span>
+      <div>✓已关注</div>
+    </div> -->
+    <!-- <div class="item">
+      <img src="./image/关注/10.webp" >
+      <p>王源</p>
+      <span>830万人关注</span>
+      <div>✓已关注</div>
+    </div> -->
+  </div>
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+    作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>

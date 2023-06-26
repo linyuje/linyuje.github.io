@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>歌手</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+  .title {
+    display: flex;
+    margin: 25px 40px 20px 40px;
+    font-size: 14px;
+    align-items: center;
+  }
+
+  .title p {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .t-active {
+    background-color: rgb(49, 194, 124);
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+  }
+
+  .main {
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main div {
+    background-color: rgb(235, 235, 241);
+    width: 17%;
+    padding: 25px;
+    display: flex;
+    margin: 0 20px 20px 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main img {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .banner {
+    width: 100%;
+  }
+</style>
+
+<body>
+  <header>
+    <!-- logo -->
+    <img class="logo" src="./image/logo.png">
+    <!-- 导航 -->
+    <nav>
+      <ul>
+        <li> <a href="./index.html">发现音乐</a></li>
+        <li> <a href="./my.html">我的音乐</a></li>
+        <li> <a href="./concern.html">关注</a></li>
+        <li> <a class="active" href="./people.html">歌手</a></li>
+        <li> <a href="./vip.html">VIP</a></li>
+      </ul>
+    </nav>
+    <!-- 搜索栏 -->
+    <div class="search">
+      <img src="./image/搜索1.png">
+      <input type="text" placeholder="音乐/视频/电台/用户" />
+    </div>
+    <!-- 功能栏 -->
+    <div class="buttons">
+      <a href="./logon.html" class="logon">登录</a>
+      <a href="./start.html" class="start">开通VIP</a>
+      <a href="./pay.html" class="pay">充值</a>
+    </div>
+  </header>
+  <!--  -->
+  <img class="banner" src="./image/歌手.webp">
+  <div class="title">
+    <p class="t-active">全部</p>
+    <p>A</p>
+    <p>B</p>
+    <p>C</p>
+    <p>D</p>
+    <p>E</p>
+    <p>F</p>
+    <p>G</p>
+    <p>H</p>
+    <p>I</p>
+    <p>J</p>
+    <p>K</p>
+    <p>L</p>
+    <p>M</p>
+    <p>O</p>
+    <p>P</p>
+    <p>Q</p>
+    <p>R</p>
+    <p>S</p>
+    <p>T</p>
+    <p>U</p>
+    <p>V</p>
+    <p>W</p>
+    <p>X</p>
+    <p>Y</p>
+    <p>Z</p>
+    <p>#</p>
+  </div>
+  <div class="title">
+    <p class="t-active">全部</p>
+    <p>内地</p>
+    <p>港台</p>
+    <p>欧美</p>
+    <p>日本</p>
+    <p>韩国</p>
+  </div>
+  <div class="title">
+    <p class="t-active">全部</p>
+    <p>男</p>
+    <p>女</p>
+    <p>组合</p>
+
+  </div>
+  <div class="title">
+    <p class="t-active">全部</p>
+    <p>流行</p>
+    <p>说唱</p>
+    <p>国风摇滚电子民谣</p>
+    <p>R&B</p>
+    <p>民族乐</p>
+    <p>轻音乐</p>
+    <p>爵士古典</p>
+    <p>乡村</p>
+    <p>蓝调</p>
+  </div>
+  <div class="main">
+    <div>
+      <a href="./people/xzq.html">
+        <img src="./image/关注/4.webp">
+      </a>
+      <p><a href="./people/xzq.html">薛之谦</a></p>
+    </div>
+    <div>
+      <a href="./people/dzq.html">
+        <img src="./image/关注/3.webp">
+      </a>
+      <p><a href="./people/dzq.html">邓紫棋</a></p>
+    </div>
+    <div>
+      <a href="./people/ljj.html">
+        <img src="./image/关注/2.webp">
+      </a>
+      <p><a href="./people/ljj.html">林俊杰</a></p>
+    </div>
+    <div>
+      <a href="./people/cyx.html">
+        <img src="./image/关注/5.webp">
+      </a>
+      <p><a href="./people/cyx.html">陈奕迅</a></p>
+    </div>
+    <div>
+      <a href="./people/lrh.html">
+        <img src="./image/关注/8.webp">
+      </a>
+      <p><a href="./people/lrh.html">李荣浩</a></p>
+    </div>
+    <div>
+      <a href="./people/wlh.html">
+        <img src="./image/关注/11.webp">
+      </a>
+      <p><a href="./people/wlh.html">王力宏</a></p>
+    </div>
+    <div>
+      <a href="./people/cjy.html">
+        <img src="./image/关注/9.webp">
+      </a>
+      <p><a href="./people/cjy.html">蔡健雅</a></p>
+    </div>
+    <div>
+      <a href="./people/Rich Brian.html">
+        <img src="./image/关注/12.webp">
+      </a>
+      <p><a href="./people/Rich Brian.html">Rich Brian</a></p>
+    </div>
+  </div>
+  <!-- 页脚 -->
+  <footer>
+    自制音乐 <br>
+    作者：林韵杰    电子邮件:3254147104@qq.com      地址:广东建设职业技术学院
+  </footer>
+</body>
+
+</html>
